@@ -1,0 +1,8 @@
+<div class="profile-welcome">
+                    <img id="profile" class="header-image" src="ai.png">
+                    <div class="intro-text">
+                        Connect to our AI Powered chat Bot <br>
+                        FDH Virtual Assistant  <br>
+                        Fast and Efficient Method
+                    </div>
+                </div>
