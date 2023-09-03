@@ -1,16 +1,22 @@
 # MUBAS_IT_KNIGHTS
-A generative AI chatbot
+
+
+
 # Your Project Name
+FDH smartBOT
 
 This repository contains the source code and data for our project. It's organized into several folders:
 
-## Backend
+## smartbot folder
+contains all the project files
 
-The `backend` folder contains PHP scripts that power the server-side logic of our application.
+## login folder
+contains login files and its the very first folder that is accessed before everything else
+index.php file is found inside this folder, open this file to access the rest of the system
 
-## Data for Training Model
+## chat folder
+contains files that ensures interactivity between the customer and the smart chatBOT
 
-In the `data-for-training-model` folder, you'll find a spreadsheet containing the training data used to develop and train our machine learning model.
 
 ## Database
 
