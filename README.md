@@ -18,25 +18,20 @@ index.php file is found inside this folder, open this file to access the rest of
 contains files that ensures interactivity between the customer and the smart chatBOT
 
 
-## Database
-
+## db folder
 The `database` folder holds our customer database. There find SQL scripts and  schema definitions
 
-## Frontend
+## test data folder
+contains the excel sheet with data used to train the model
 
-The `frontend` folder contains the client-side scripts responsible for creating the user interface of our application. You'll find HTML, CSS, JavaScript, and possibly image assets in this directory.
 
 ## Getting Started
 
 To get started with our project, follow these steps:
 
-1. **Backend**: Check out the `backend` folder for PHP scripts. You may need to configure a web server to run these scripts.
-
-2. **Data for Training Model**: Explore the data in the `data-for-training-model` folder. 
-
-3. **Database**: If you need to set up the customer database, look into the `database` folder 
-
-4. **Frontend**: The `frontend` folder contains the client-side code. You can open the HTML files in a web browser to interact with the user interface.
-
+1. Open RDBMS. you can use one of these wampp or xamp
+2. access index.php file in the login folder
+3. use the database to access the account names and the PIN to log in
+4. Once successfully logged in, you can now access the services provided by the chatbot
 
 
