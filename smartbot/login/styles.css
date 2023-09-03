@@ -1,0 +1,110 @@
+body {
+	background: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	
+}
+
+*{
+    padding: 0;
+    margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 31.25rem;
+	border: none;
+	padding: 1.9rem;
+	background-color: rgb(38, 83, 207);
+	border-radius: .6rem;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 2.5rem;
+    color: white;
+	letter-spacing: 0.5rem;
+}
+
+.main-heading{
+	color: rgb(38, 83, 207);
+	margin-bottom: 3rem;
+}
+
+input {
+	display: block;
+	border: none;
+	width: 95%;
+	padding: 0.625rem;
+	margin: 0.625rem auto;
+	border-radius: 0.3125rem;
+}
+label {
+    color: rgb(202, 202, 202);
+	font-size: 1.125rem;
+	padding: 0.625rem;
+}
+
+button {
+	float: right;
+	background: white;
+	padding: 0.625rem 0.9375rem;
+	color: black;
+	border-radius: 0.3125rem;
+	margin-right: 0.625rem;
+	border: none;
+	color: black;
+	font-weight: bold;
+}
+button:hover{
+	opacity: .7;
+    cursor: pointer;
+}
+.error {
+   background: #f5d8d8;
+   color: #b93e3c;
+   padding: 0.625rem;
+   width: 95%;
+   border-radius: 0.3125rem;
+   margin: 1.25rem auto;
+}
+
+.home-heading {
+	text-align: center;
+	color: #fff;
+}
+
+a {
+	float: right;
+	background: #555;
+	padding: 0.625rem 0.9375rem;
+	color: #fff;
+	border-radius: 0.3125rem;
+	margin-right: 0.625rem;
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .7;
+}
+
+@media (max-width: 500px) {
+	form {
+		width: 100%;
+		padding: 1rem;
+	}
+
+	input {
+		width: 100%;
+	}
+
+	button {
+        width: 100%;
+		float: none;
+		margin: 0.625rem auto;
+	}
+}

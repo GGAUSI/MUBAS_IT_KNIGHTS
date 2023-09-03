@@ -1,0 +1,10 @@
+<div class="profile-welcome">
+                    <img id="profile" class="header-image" src="ai.png">
+                    <div class="intro-text">
+                        Connect to our AI Powered chat Bot <br>
+                        FDH Virtual Assistant  <br>
+                        Fast and Efficient Method
+                    </div>
+                </div>
+
+search and retrieve only the answer that is similar to the question [${question}] In the following knowledge base then paraphrase and don't repeat the question. Note that The question is to the left of ~, and the answer to the right of it. please provide a straightforward response in a user-friendly format. Refrain from presenting the answer in the same format that it is in this knowledge base.
